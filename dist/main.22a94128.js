@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\Rubik.woff":[["Rubik.7d91cb24.woff","fonts/Rubik.woff"],"fonts/Rubik.woff"],"./..\\fonts\\Rubik.woff2":[["Rubik.3ce2dac7.woff2","fonts/Rubik.woff2"],"fonts/Rubik.woff2"],"./..\\fonts\\Rubikbold.woff":[["Rubikbold.2b2a5fa1.woff","fonts/Rubikbold.woff"],"fonts/Rubikbold.woff"],"./..\\fonts\\Rubikbold.woff2":[["Rubikbold.8f69c677.woff2","fonts/Rubikbold.woff2"],"fonts/Rubikbold.woff2"],"./..\\fonts\\Rubikmedium.woff":[["Rubikmedium.533a5a79.woff","fonts/Rubikmedium.woff"],"fonts/Rubikmedium.woff"],"./..\\fonts\\Rubikmedium.woff2":[["Rubikmedium.da99c3e0.woff2","fonts/Rubikmedium.woff2"],"fonts/Rubikmedium.woff2"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\fonts\\Rubik.woff":[["Rubik.7d91cb24.woff","fonts/Rubik.woff"],"fonts/Rubik.woff"],"./..\\fonts\\Rubik.woff2":[["Rubik.3ce2dac7.woff2","fonts/Rubik.woff2"],"fonts/Rubik.woff2"],"./..\\fonts\\Rubikbold.woff":[["Rubikbold.2b2a5fa1.woff","fonts/Rubikbold.woff"],"fonts/Rubikbold.woff"],"./..\\fonts\\Rubikbold.woff2":[["Rubikbold.8f69c677.woff2","fonts/Rubikbold.woff2"],"fonts/Rubikbold.woff2"],"./..\\fonts\\Rubikmedium.woff":[["Rubikmedium.533a5a79.woff","fonts/Rubikmedium.woff"],"fonts/Rubikmedium.woff"],"./..\\fonts\\Rubikmedium.woff2":[["Rubikmedium.da99c3e0.woff2","fonts/Rubikmedium.woff2"],"fonts/Rubikmedium.woff2"],"./..\\images\\check-mark.svg":[["check-mark.e5b0ff21.svg","images/check-mark.svg"],"images/check-mark.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55013" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64506" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
