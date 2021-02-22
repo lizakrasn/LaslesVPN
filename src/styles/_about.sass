@@ -12,11 +12,23 @@
 
   &__stats
     margin-top: 100px
-    padding: 35px 0
+    padding: 35px 90px
     display: flex
+    justify-content: space-between
     flex: 1
     flex-basis: 100%
+    border-radius: 10px
+    box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.1)
   
+  &__stats-container
+    flex-basis: calc(100% / 3)
+    display: flex
+    justify-content: center
+    padding: 30px 0
+    border-right: 2px solid #EEEFF2
+
+  &__stats-container:last-child
+    border-right: none
 
   &__title
     font-size: 50px
