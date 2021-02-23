@@ -310,4 +310,37 @@ section {
   width: 177px;
 }
 
+.network {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.network__title {
+  max-width: 380px;
+}
+.network__subtitle {
+  max-width: 550px;
+}
+.network__img-container {
+  max-width: 1060px;
+  margin: 155px 0 35px;
+}
+.network__img {
+  width: 100%;
+  height: auto;
+}
+.network__companies {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.network__company {
+  margin-right: 50px;
+}
+.network__company:last-child {
+  margin-right: 0;
+}
+
 /*# sourceMappingURL=/main.22a94128.css.map */
