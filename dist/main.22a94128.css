@@ -49,8 +49,8 @@ section {
   background-color: #FFFFFF;
 }
 .section__title {
+  font-family: "Rubik Medium", sans-serif;
   font-size: 35px;
-  font-weight: 500;
   line-height: 1.5;
 }
 .section__subtitle {
@@ -105,14 +105,6 @@ section {
 .header__logo {
   display: flex;
   align-items: center;
-}
-.header__image {
-  width: 35px;
-  height: 35px;
-}
-.header__title {
-  margin-left: 10px;
-  font-size: 20px;
 }
 .header__bold {
   font-family: "Rubik Medium", sans-serif;
@@ -175,11 +167,11 @@ section {
   border-right: none;
 }
 .about__title {
+  font-family: "Rubik Medium", sans-serif;
   font-size: 50px;
-  font-weight: 500;
 }
 .about__bold {
-  font-weight: 700;
+  font-family: "Rubik Bold", sans-serif;
 }
 .about__button {
   margin-top: 50px;
@@ -269,8 +261,8 @@ section {
 }
 .plan__name {
   margin: 30px 0;
+  font-family: "Rubik Medium", sans-serif;
   font-size: 18px;
-  font-weight: 700;
 }
 .plan__list {
   list-style-type: none;
@@ -299,12 +291,12 @@ section {
 }
 .plan__comment {
   margin-bottom: 20px;
+  font-family: "Rubik Medium", sans-serif;
   font-size: 25px;
-  font-weight: 700px;
 }
 .plan__light-text {
   color: #4F5665;
-  font-weight: 400;
+  font-family: "Rubik", sans-serif;
 }
 .plan__button {
   width: 177px;
@@ -341,6 +333,39 @@ section {
 }
 .network__company:last-child {
   margin-right: 0;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__nav-list {
+  display: flex;
+  flex-basis: 47%;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  list-style-type: none;
+}
+.footer-nav__name {
+  margin-bottom: 20px;
+  font-family: "Rubik Medium", sans-serif;
+  font-size: 18px;
+}
+.footer-nav__link {
+  margin-bottom: 10px;
+}
+.footer-nav__link-item {
+  font-family: "Rubik", sans-serif;
+  color: #4F5665;
+  font-size: 16px;
+  line-height: 2;
+  text-decoration: none;
+  transition: color 300ms;
+}
+.footer-nav__link-item:hover {
+  color: #0B132A;
 }
 
 /*# sourceMappingURL=/main.22a94128.css.map */
