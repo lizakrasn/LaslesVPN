@@ -36,6 +36,7 @@
   &__title
     font-family: "Rubik Medium", sans-serif
     font-size: 50px
+    font-size: clamp(35px, 4.5vw, 50px)
 
   &__bold
     font-family: "Rubik Bold", sans-serif
@@ -63,6 +64,12 @@
     &__stats-container
       min-width: 250px
       border-right: none
+
+  @include m
+    &__info,
+    &__img-container
+      min-width: auto
+      flex-basis: 100%
 
 
   

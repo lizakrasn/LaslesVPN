@@ -80,7 +80,7 @@ section {
 }
 @media screen and (max-width: 600px) {
   .section {
-    padding: 60px 40px;
+    padding: 60px 20px;
   }
 }
 
@@ -151,6 +151,12 @@ section {
     display: none;
   }
 }
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 35px 20px;
+    flex-direction: column;
+  }
+}
 
 .nav__list {
   display: flex;
@@ -209,6 +215,7 @@ section {
 .about__title {
   font-family: "Rubik Medium", sans-serif;
   font-size: 50px;
+  font-size: clamp(35px, 4.5vw, 50px);
 }
 .about__bold {
   font-family: "Rubik Bold", sans-serif;
@@ -239,6 +246,12 @@ section {
   .about__stats-container {
     min-width: 250px;
     border-right: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about__info, .about__img-container {
+    min-width: auto;
+    flex-basis: 100%;
   }
 }
 
@@ -436,6 +449,9 @@ section {
   .network__company {
     margin: 0 25px;
   }
+  .network__company:last-child {
+    margin: 0 25px;
+  }
   .network__img-container {
     margin-top: 100px;
   }
@@ -450,7 +466,6 @@ section {
 }
 
 .footer {
-  padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -478,6 +493,9 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.footer__nav-item {
+  margin: 0 20px 20px;
+}
 @media screen and (max-width: 980px) {
   .footer {
     justify-content: center;
@@ -486,6 +504,11 @@ section {
   .footer__about, .footer__nav-list {
     flex-basis: 70%;
     min-width: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer__about, .footer__nav-list {
+    flex-basis: 100%;
   }
 }
 
