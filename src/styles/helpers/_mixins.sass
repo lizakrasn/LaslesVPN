@@ -1,0 +1,18 @@
+// width
+@mixin maxw($width)
+  @media screen and (max-width: $width + 'px')
+    @content
+
+@mixin desktop
+  @include maxw(1280)
+    @content
+
+
+@mixin xl
+  @include maxw(980)
+    @content
+
+@mixin m
+  @include maxw(600)
+    @content
+

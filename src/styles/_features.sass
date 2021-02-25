@@ -2,7 +2,11 @@
   display: grid
   grid-template-columns: auto 1fr auto
   align-items: end
-  padding-bottom: 125px
+  margin-bottom: 25px
+
+  &__img-container,
+  &__img
+    width: 100%
 
   &__info
     grid-column: 3
@@ -30,3 +34,14 @@
       background-image: url('../images/check-mark.svg')
       background-size: contain
       background-repeat: no-repeat
+
+  @include xl
+    display: flex
+    flex-direction: column-reverse
+    align-items: center
+
+    &__info
+      display: flex
+      flex-direction: column
+      align-items: center
+      text-align: center

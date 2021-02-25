@@ -9,9 +9,10 @@
     line-height: 1.5
 
   &__subtitle
+    margin-top: 10px
     color: $secondary-color
     line-height: 2
-    margin-top: 10px
+    max-width: 555px
 
   &__bold
     font-weight: 600
@@ -21,3 +22,12 @@
 
   &_grey
     background-color: $grey
+
+  @include desktop
+    padding: 100px calc((100% - 900px) / 2 )
+
+  @include xl
+    padding: 80px 40px
+
+  @include m
+    padding: 60px 40px

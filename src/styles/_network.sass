@@ -12,20 +12,34 @@
 
   &__img-container
     max-width: 1060px
-    margin: 155px 0 35px
+    margin-top: 155px
 
   &__img
     width: 100%
     height: auto
 
   &__companies
+    padding: 35px 0 50px
     display: flex
     flex-wrap: wrap
     align-items: center
     justify-content: center
 
   &__company
-    margin-right: 50px
-  
-  &__company:last-child
-    margin-right: 0
+    margin-right: 50px  
+    &:last-child
+      margin-right: 0
+
+  @include desktop
+    &__company
+      margin: 0 25px
+
+    &__img-container
+      margin-top: 100px
+
+  @include xl
+    &__img-container
+      margin-top: 70px
+
+    &__companies
+      padding: 0

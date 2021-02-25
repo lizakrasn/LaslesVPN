@@ -20,3 +20,11 @@
 
   &__button
     width: 150px
+
+  @include desktop
+    padding: 50px calc((100% - 900px) / 2 )
+
+  @include xl
+    padding: 50px 40px
+    &__nav
+      display: none

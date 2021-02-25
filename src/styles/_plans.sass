@@ -3,6 +3,16 @@
   
   &__options
     display: flex
-    justify-content: space-between
+    justify-content: space-evenly
     flex-wrap: wrap
     margin-top: 60px
+
+  &__plan
+    margin-bottom: 50px
+
+  @include desktop
+    &__plan
+      margin-bottom: 30px
+
+      &:last-child
+        margin-bottom: 0
